@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Jossy Petit version pastelero </title>
+   
+</head>
+
+<body>
+    <header>
+        <img src="images/logotipo.png" alt="Logo de pasteleria" width="350px" height="350px">
+    </header>
+
+    <table id="tablaPrecios">
+        
+        <h3>TABLA DE PRECIOS</h3>
+        <br>
+        <tr>
+            <th>Pasteles</th>
+            <th>Precio un sabor &nbsp</th>
+            <th>Precio combinado &nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>Decoración &nbsp &nbsp</th>
+            <th>Precio &nbsp</th>
+        </tr>
+        <tr>
+            <td>Pastel queso&nbsp&nbsp</td>
+            <td>$130</td>
+            <td>$250</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>Vela Figurita</td>
+            <td>$50</td>
+
+        </tr>
+        <tr>
+            <td>Pastel chocolate&nbsp&nbsp</td>
+            <td>$100</td>
+            <td>$250</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>Letreritos</td>
+            <td>$20</td>
+        </tr>
+        <tr>
+            <td>Pastel vainilla&nbsp&nbsp</td>
+            <td>$110</td>
+            <td>$250</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>choco red </td>
+            <td>$70</td>
+        </tr>
+        <tr>
+            <td>Pastel Red velvet&nbsp&nbsp</td>
+            <td>$120</td>
+            <td>$250</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>Fruta</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td>Pastel Imposible&nbsp&nbsp</td>
+            <td>$150</td>
+            <td>$250</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>Springles</td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td>Pastel Zanahoria&nbsp&nbsp</td>
+            <td>$135</td>
+            <td>$250</td>
+            <td>&nbsp</td>
+            <td>&nbsp</td>
+            <td>Flores</td>
+            <td>$35</td>
+        </tr>
+    </table>
+    <BR></BR>
+    <h2>Crea tu pastel </h2> 
+    <div id="columna1">
+        <div id="sabores">
+            <h2>Selecciona uno o dos sabores </h2><br>
+            <input type="checkbox" id="sabor1" name="sabor1" value="queso">
+            <label for="sabor1">Queso</label><br>
+            <input type="checkbox" id="sabor2" name="sabor2" value="chocolate">
+            <label for="sabor2">Chocolate</label><br>
+            <input type="checkbox" id="sabor3" name="sabor3" value="vainilla">
+            <label for="sabor3">Vainilla</label><br>
+            <input type="checkbox" id="sabor4" name="sabor4" value="redVelvet">
+            <label for="sabor4">Red velvet</label><br>
+            <input type="checkbox" id="sabor5" name="sabor5" value="imposible">
+            <label for="sabor5">Pastel Imposible</label><br>
+            <input type="checkbox" id="sabor6" name="sabor6" value="zanahoria">
+            <label for="sabor6">Zanahoria</label><br>
+        </div>
+    
+        <div id="Decoraciones">
+            <h2>Selecciona todos los que quieras </h2><br>
+            <input type="checkbox" id="deco1" name="deco1" value="vela">
+            <label for="deco1">Vela figurita</label><br>
+            <input type="checkbox" id="deco2" name="deco2" value="letrerito">
+            <label for="deco2">Letreritos</label><br>
+            <input type="checkbox" id="deco3" name="deco3" value="red">
+            <label for="deco3">Redes chocolate</label><br>
+            <input type="checkbox" id="deco4" name="deco4" value="fruta">
+            <label for="deco4">Fruta</label><br>
+            <input type="checkbox" id="deco5" name="deco5" value="springles">
+            <label for="deco5">Springles</label><br>
+            <input type="checkbox" id="deco6" name="deco6" value="flores">
+            <label for="deco6">Flores</label><br>
+        </div>
+    </div>
+    
+    <div id="columna2">
+        <h2>Agrega tus datos</h2>
+
+        <label for="nombre">Nombre del cliente</label><br>
+        <input type="text" id="name1" name="name1"><br><br>
+                
+        <label for="correo1">Correo</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+                      
+        <label for="tel1"> Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+        <label for="nombre">Descripcion de tu pastel</label><br>
+        <input type="text" id="desc1" name="desc1"><br><br>
+
+        <label for="texto1">Texto de pastel</label><br>
+        <input type="text" id="texto1" name="texto1"><br><br>
+
+
+    </div>
+    <div id="contactoInfo">
+        <h2 style="text-align:center">Visitanos!</h2>
+        <p style="text-align:center">Av. Morelos #45 col.Carmen, Estado de México CP.55894</p>
+        <p style="text-align:center"> Telefonos: 55783762362 y 3627833022</p>
+        <p style="text-align:center">Horario de atencion Lunes a domingo de 10am -8pm </p>
+    </div>
+
+</body>
+</html>

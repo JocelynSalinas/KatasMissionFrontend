@@ -1,0 +1,55 @@
+body{
+    background-color:#C9EFF2;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    
+    background-color:#F4A8CE ;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+* {
+    margin:0;
+    padding:0;
+    }
+    #columna1 {
+    position:absolute;
+    top:600px;
+    left:0px;
+    width:400px;
+    margin-left:px;
+    margin-top:10px;
+    background-color:#80EFE4;
+    }
+    #columna2 {
+    margin-left:420px;
+    margin-top:10px;
+    background-color:#79f5ad;
+    }
+    #tablaPrecios
+    {
+    background-color: #C9EFF2;
+    }
+    #saboresRestantes
+    {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: medium;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 550px;
+       
+    }
+    #adornosRestantes
+    {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: medium;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 550px;
+        
+    }
+    
+    
